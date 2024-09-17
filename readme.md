@@ -27,13 +27,13 @@ For more technical informations : [documentation](./project.md)
      <tr><td>To contribute</td><td>
 
      ```
-     radios_group=C:/Convertigo/Studio 8.3.0/workspace/radios_group/.git:branch=master
+     radios_group=https://github.com/convertigo/c8oprj-sample-radios.git:branch=master
      ```
      </td></tr>
      <tr><td>To simply use</td><td>
 
      ```
-     radios_group=C:/Convertigo/Studio 8.3.0/workspace/radios_group//archive/master.zip
+     radios_group=https://github.com/convertigo/c8oprj-sample-radios/archive/master.zip
      ```
      </td></tr>
     </table>

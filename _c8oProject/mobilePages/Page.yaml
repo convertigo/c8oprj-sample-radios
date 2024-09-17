@@ -229,7 +229,7 @@ title: First page
              "Property": "plain:radio_change",
              "Value": "script:event.target.value"
             }'
-  ↓ListContainer1 [ngx.components.UIDynamicElement-1726231104127]: 
+  ↓Radio_events [ngx.components.UIDynamicElement-1726231104127]: 
     beanData: '{"ionBean":"List","Inset":"plain:true"}'
     tagName: ion-list
     ↓ListHeader [ngx.components.UIDynamicElement-1726231104112]: 
