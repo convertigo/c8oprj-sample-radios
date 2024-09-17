@@ -1,1 +1,54 @@
-This convertigo project template can be used to start a Mobile Builder Ionic project with Convertigo.
+
+
+
+# radios_group
+
+How to set events on Radios
+
+
+For more technical informations : [documentation](./project.md)
+
+- [Installation](#installation)
+- [Mobile Application](#mobile-application)
+    - [Pages](#pages)
+        - [Page](#page)
+
+
+## Installation
+
+1. In your Convertigo Studio click on ![](https://github.com/convertigo/convertigo/blob/develop/eclipse-plugin-studio/icons/studio/project_import.gif?raw=true "Import a project in treeview") to import a project in the treeview
+2. In the import wizard
+
+   ![](https://github.com/convertigo/convertigo/blob/develop/eclipse-plugin-studio/tomcat/webapps/convertigo/templates/ftl/project_import_wzd.png?raw=true "Import Project")
+   
+   paste the text below into the `Project remote URL` field:
+   <table>
+     <tr><td>Usage</td><td>Click the copy button at the end of the line</td></tr>
+     <tr><td>To contribute</td><td>
+
+     ```
+     radios_group=C:/Convertigo/Studio 8.3.0/workspace/radios_group/.git:branch=master
+     ```
+     </td></tr>
+     <tr><td>To simply use</td><td>
+
+     ```
+     radios_group=C:/Convertigo/Studio 8.3.0/workspace/radios_group//archive/master.zip
+     ```
+     </td></tr>
+    </table>
+3. Click the `Finish` button. This will automatically import the __radios_group__ project
+
+
+## Mobile Application
+
+Demo project for radios usage
+
+### Pages
+
+#### Page
+
+Radios and Events
+
+
+

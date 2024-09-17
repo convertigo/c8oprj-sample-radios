@@ -1,5 +1,5 @@
 ↑isRoot: true
-comment: My First Page as root page
+comment: Radios and Events
 preloadPriority: high
 scriptContent: 
   - xmlizable: 
@@ -40,7 +40,7 @@ title: First page
         textValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-            - MobileSmartSourceType: plain:Page
+            - MobileSmartSourceType: plain:Radios
     ↓ButtonSet2 [ngx.components.UIDynamicElement-1588170811054]: 
       beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
       tagName: ion-buttons
@@ -54,6 +54,262 @@ title: First page
   beanData: '{"ionBean":"Content"}'
   comment: Page content
   tagName: ion-content
+  ↓ListContainer [ngx.components.UIDynamicElement-1726221627164]: 
+    beanData: '{"ionBean":"List"}'
+    tagName: ion-list
+    ↓ListHeader [ngx.components.UIDynamicElement-1726562061990]: 
+      beanData: '{"ionBean":"Listheader"}'
+      tagName: ion-list-header
+      ↓Label [ngx.components.UIDynamicElement-1726562061993]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Heading [ngx.components.UIDynamicTag-1726562061996]: 
+          beanData: '{"ionBean":"Heading"}'
+          tagName: h1
+          ↓Text [ngx.components.UIText-1726562061999]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Radio Buttons
+    ↓RadioGroup [ngx.components.UIDynamicElement-1726221507037]: 
+      beanData: |
+        '{
+         "ionBean": "RadioGroup",
+         "ControlName": "plain:name1726221507037",
+         "DoubleBinding": "script:this.local.radio_value",
+         "Value": "plain:two"
+        }'
+      tagName: ion-radio-group
+      ↓ListItem [ngx.components.UIDynamicElement-1726221627159]: 
+        beanData: '{"ionBean":"ListItem"}'
+        tagName: ion-item
+        ↓RadioButton [ngx.components.UIDynamicElement-1726221507030]: 
+          beanData: '{"ionBean":"RadioButton","Value":"plain:one"}'
+          tagName: ion-radio
+          ↓Text [ngx.components.UIText-1726221507032]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:radio one
+          ↓Event [ngx.components.UIControlEvent-1726231995667]: 
+            attrName: (ionFocus)
+            eventName: ionFocus
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236442811]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_focus",
+                 "Value": "script:event.target.value"
+                }'
+          ↓Event1 [ngx.components.UIControlEvent-1726236272454]: 
+            attrName: (ionBlur)
+            eventName: ionBlur
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236605639]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_blur",
+                 "Value": "script:event.target.value"
+                }'
+      ↓ListItem1 [ngx.components.UIDynamicElement-1726221676549]: 
+        beanData: '{"ionBean":"ListItem"}'
+        tagName: ion-item
+        ↓RadioButton1 [ngx.components.UIDynamicElement-1726221507034]: 
+          beanData: |
+            '{
+             "ionBean": "RadioButton",
+             "IonColor": "plain:success",
+             "Value": "plain:two"
+            }'
+          tagName: ion-radio
+          ↓Text [ngx.components.UIText-1726221507036]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:radio two
+          ↓Event [ngx.components.UIControlEvent-1726232248067]: 
+            attrName: (ionFocus)
+            eventName: ionFocus
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236576770]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_focus",
+                 "Value": "script:event.target.value"
+                }'
+          ↓Event1 [ngx.components.UIControlEvent-1726236635231]: 
+            attrName: (ionBlur)
+            eventName: ionBlur
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236635234]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_blur",
+                 "Value": "script:event.target.value"
+                }'
+      ↓ListItem2 [ngx.components.UIDynamicElement-1726230119873]: 
+        beanData: '{"ionBean":"ListItem"}'
+        tagName: ion-item
+        ↓RadioButton [ngx.components.UIDynamicElement-1726230119876]: 
+          beanData: |
+            '{
+             "ionBean": "RadioButton",
+             "IonColor": "plain:warning",
+             "Value": "plain:three"
+            }'
+          tagName: ion-radio
+          ↓Text [ngx.components.UIText-1726230119879]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:radio three
+          ↓Event [ngx.components.UIControlEvent-1726232252925]: 
+            attrName: (ionFocus)
+            eventName: ionFocus
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236580183]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_focus",
+                 "Value": "script:event.target.value"
+                }'
+          ↓Event1 [ngx.components.UIControlEvent-1726236640430]: 
+            attrName: (ionBlur)
+            eventName: ionBlur
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236640433]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_blur",
+                 "Value": "script:event.target.value"
+                }'
+      ↓ListItem3 [ngx.components.UIDynamicElement-1726230123026]: 
+        beanData: '{"ionBean":"ListItem"}'
+        tagName: ion-item
+        ↓RadioButton [ngx.components.UIDynamicElement-1726230123029]: 
+          beanData: |
+            '{
+             "ionBean": "RadioButton",
+             "IonColor": "plain:danger",
+             "Value": "plain:four"
+            }'
+          tagName: ion-radio
+          ↓Text [ngx.components.UIText-1726230123032]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:radio four
+          ↓Event [ngx.components.UIControlEvent-1726232256938]: 
+            attrName: (ionFocus)
+            eventName: ionFocus
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236584027]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_focus",
+                 "Value": "script:event.target.value"
+                }'
+          ↓Event1 [ngx.components.UIControlEvent-1726236645618]: 
+            attrName: (ionBlur)
+            eventName: ionBlur
+            ↓SetLocal [ngx.components.UIDynamicAction-1726236645621]: 
+              beanData: |
+                '{
+                 "ionBean": "SetLocalAction",
+                 "Property": "plain:radio_blur",
+                 "Value": "script:event.target.value"
+                }'
+      ↓Event [ngx.components.UIControlEvent-1726231695199]: 
+        attrName: (ionChange)
+        eventName: ionChange
+        ↓SetLocal [ngx.components.UIDynamicAction-1726236808213]: 
+          beanData: |
+            '{
+             "ionBean": "SetLocalAction",
+             "Property": "plain:radio_change",
+             "Value": "script:event.target.value"
+            }'
+  ↓ListContainer1 [ngx.components.UIDynamicElement-1726231104127]: 
+    beanData: '{"ionBean":"List","Inset":"plain:true"}'
+    tagName: ion-list
+    ↓ListHeader [ngx.components.UIDynamicElement-1726231104112]: 
+      beanData: '{"ionBean":"Listheader"}'
+      tagName: ion-list-header
+      ↓Label [ngx.components.UIDynamicElement-1726231104114]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Heading [ngx.components.UIDynamicTag-1726231104116]: 
+          beanData: '{"ionBean":"Heading"}'
+          tagName: h1
+          ↓Text [ngx.components.UIText-1726231104118]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Radio Events
+    ↓ListItem [ngx.components.UIDynamicElement-1726231232290]: 
+      beanData: '{"ionBean":"ListItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1726231232287]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1726231232289]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'plain:Binding : '
+        ↓Text1 [ngx.components.UIText-1726231329016]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.radio_value
+    ↓ListItem1 [ngx.components.UIDynamicElement-1726236415669]: 
+      beanData: '{"ionBean":"ListItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1726236415672]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1726236415675]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'plain:ionFocus : '
+        ↓Text1 [ngx.components.UIText-1726236415678]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Local","project":"radios_group","input":"","model":{"data":[{"localObject":"local"}],"path":"?.radio_focus","prefix":"","suffix":"","custom":"","useCustom":false}}
+    ↓ListItem2 [ngx.components.UIDynamicElement-1726236693116]: 
+      beanData: '{"ionBean":"ListItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1726236693119]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1726236693122]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'plain:ionBlur : '
+        ↓Text1 [ngx.components.UIText-1726236693125]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Local","project":"radios_group","input":"","model":{"data":[{"localObject":"local"}],"path":"?.radio_blur","prefix":"","suffix":"","custom":"","useCustom":false}}
+    ↓ListItem3 [ngx.components.UIDynamicElement-1726236878341]: 
+      beanData: '{"ionBean":"ListItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1726236878344]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1726236878347]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'plain:ionChanged : '
+        ↓Text1 [ngx.components.UIText-1726236878350]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Local","project":"radios_group","input":"","model":{"data":[{"localObject":"local"}],"path":"?.radio_change","prefix":"","suffix":"","custom":"","useCustom":false}}
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer
